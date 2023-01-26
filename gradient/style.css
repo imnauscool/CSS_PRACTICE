@@ -1,0 +1,26 @@
+.box {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(to left, red, blue);
+  background-image: linear-gradient(
+    to botttom,
+    rgba(255, 0, 0, 0),
+    rgba(0, 0, 255, 1)
+  );
+}
+
+.radical {
+  border: 1px solid black;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  background-image: radial-gradient(yellow 20%, green 80%);
+}
+.flag {
+  border: 1px solid black;
+  margin: 10px;
+  height: 300px;
+  width: 500px;
+  background-image: linear-gradient(orange, white, green);
+}
